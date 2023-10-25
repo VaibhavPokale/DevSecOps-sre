@@ -2,6 +2,7 @@
 
 # if args have been specified, then
 # show the correct syntax to the user
+echo "Test performance of underlying infrastructure"
 if [ $# -gt 0 ] ; then
   echo "Invalid Syntax!"
   echo "The valid syntax is ./$(basename $0)"
