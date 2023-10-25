@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "enter name of the script:-\n"
+read filename
+sudo touch $filename.sh
+echo "Title of the script :--\n">>$filename.sh
